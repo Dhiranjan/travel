@@ -6,13 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Travel | A complete traveling Solution</title>
 
+    <!----*css*--->
     <link rel="stylesheet" href="style.css">
 
+    <!---Bootstrap--->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <!---Fontawesome--->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
 </head>
@@ -21,23 +26,144 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <h1>World Wide</h1>
+                    <h2>World Wide</h2>
                 </div>
 
                 <div class="login">
-                    <button class="btn btn-primary">Login</button>
+                    <button type="button" class="btn-login btn btn-primary">Login</button>
                 </div>
             </div>
 
             <div class="banner-text">
-                <h1>Real life Experiences.</h1>
-                <form action="" class="banner-search">
-                    <input type="search" class="form-control" name="" id="">
-                    <button class="btn btn-primary" type="button">Search</button>
-                </form>
+                <h3>Real life Experiences.</h3>
+
+                <div class="input-group">
+                    <input type="search" class="form-control" placeholder="Enter Country or City">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-primary form-control-text">Search</button>
+                    </div>
+            </div>
+           
+        </div>
+    </section>
+    <!--****End of Header Section****-->
+
+    <!--****Start of Section****-->
+
+    <section id="features">
+            <div class="container">
+                <h1>Features Destinations</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <img src="images/newyork.jpg" alt="">
+                        </div>
+                        <div class="price">
+                            <p class="Destination">New York</p>
+                            <p>$500<span>Per Person</span></p>
+                        </div>
+                        <div class="package">
+                            <p> <i class="far fa-calendar-alt"></i>  3 Day/Night </p> 
+                            <p><i class="fas fa-utensils"></i> Bed </p>
+                        </div>
+
+                        <button type="button" class="find_out_more btn btn-success">Find Out More</button>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <img src="images/sanfrancisco.jpg" alt="">
+                        </div>
+
+                        <div class="price">
+                            <p class="Destination">San Franscisco</p>
+                            <p>$700<span>Per Person</span></p>
+                         </div>
+                        <div class="package">
+                            <p> <i class="far fa-calendar-alt"></i>  3 Day/Night </p> 
+                            <p><i class="fas fa-utensils"></i> Bed and Breakfast</p>
+                        </div>
+
+                        <button type="button" class="find_out_more btn btn-success">Find Out More</button>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <img src="images/la.jpg" alt="">
+                        </div>
+
+                        <div class="price">
+                            <p class="Destination">Las Angeles</p>
+                            <p>$800<span>Per Person</span></p>
+                        </div>
+                        <div class="package">
+                            <p> <i class="far fa-calendar-alt"></i>  3 Day/Night </p> 
+                            <p><i class="fas fa-utensils"></i> Bed </p>
+                        </div>
+
+                        <button type="button" class="find_out_more btn btn-success">Find Out More</button>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="other_destination">
+        <div class="container">
+            <h1>Other Famous Destinations</h1>
+            <div class="row">
+                    <div class="col-md-6">
+                        <div class="feature-box">
+                             <img src="images/paris.jpeg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="destination-text">
+                                <h1 class="other_destination_from">Paris $600</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A maiores ipsam ex sint perspiciatis. Totam eius aut, at enim impedit quod voluptatibus doloribus et quasi quibusdam eveniet, perferendis deserunt nemo ipsum ratione, obcaecati dolorem nulla animi consequuntur cum. Nostrum atque facere, voluptatibus corporis animi cum earum consectetur sed unde repudiandae vitae quas officiis, dicta ea similique natus doloremque eum hic! Pariatur nesciunt similique ea recusandae nobis quaerat, accusamus beatae rem dolorum commodi eaque eveniet doloremque atque, qui repellat, dolorem et aspernatur perferendis impedit tempora maiores illum ratione quidem. Suscipit quos aperiam excepturi, assumenda rerum tenetur quidem. Numquam ipsum quia amet.</p>
+
+                                <div class="other_destination_button">
+                                    <button type="button" Class="btn_destination btn btn-success">View Deal</button>
+                                </div>
+                        </div>
+
+                        
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-md-6">
+                            <div class="destination-text">
+                                    <h1 class="other_destination_from">London $500</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A maiores ipsam ex sint perspiciatis. Totam eius aut, at enim impedit quod voluptatibus doloribus et quasi quibusdam eveniet, perferendis deserunt nemo ipsum ratione, obcaecati dolorem nulla animi consequuntur cum. Nostrum atque facere, voluptatibus corporis animi cum earum consectetur sed unde repudiandae vitae quas officiis, dicta ea similique natus doloremque eum hic! Pariatur nesciunt similique ea recusandae nobis quaerat, accusamus beatae rem dolorum commodi eaque eveniet doloremque atque, qui repellat, dolorem et aspernatur perferendis impedit tempora maiores illum ratione quidem. Suscipit quos aperiam excepturi, assumenda rerum tenetur quidem. Numquam ipsum quia amet.</p>
+    
+                                    <div class="other_destination_button">
+                                        <button type="button" Class="btn_destination btn btn-success">View Deal</button>
+                                    </div>
+                            </div>
+
+
+                        
+                    </div>
+                    <div class="col-md-6">
+                            <div class="feature-box">
+                                <img src="images/london.jpeg" alt="">
+                            </div>                        
+                    </div>
             </div>
         </div>
     </section>
+
+    <section id="hotel_booking">
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+
    
     
 </body>
